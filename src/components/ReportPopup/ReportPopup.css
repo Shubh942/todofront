@@ -1,0 +1,25 @@
+.reportpopup {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 40%;
+  width: 30%;
+  position: fixed;
+  gap: 100px;
+  background-color: aquamarine;
+  border: 2px solid black;
+}
+
+.report-bg {
+  right: 0;
+  bottom: 0;
+  gap: 100px;
+  top: 0;
+  /* background-color: rgba(189, 189, 189, 0.9); */
+}
+
+.reportpopup-buttons {
+  display: flex;
+  gap: 100px;
+  flex-direction: row !important;
+}
